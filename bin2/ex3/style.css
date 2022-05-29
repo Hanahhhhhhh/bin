@@ -1,0 +1,25 @@
+.book {
+    width: 1024px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.add-product {
+    width: 40%;
+    float: left;
+}
+
+.list-product{
+    width: 60%;
+    float: left;
+}
+
+.table-list-book {
+    width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-list-book td,tr,th {
+    border: 1px solid red;
+}

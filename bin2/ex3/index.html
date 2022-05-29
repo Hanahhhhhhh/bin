@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="book.js"></script>
+    <script src="bm.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <div class="book">
+        <h2>Quản lý sách</h2>
+        <table class="table-list-book">
+            <thead>
+            <tr>
+                <th>Mã số sách</th>
+                <th>Tên sách</th>
+                <th>Năm phát hành</th>
+                <th>Số quyển</th>
+                <th>Tình trạng</th>
+            </tr>
+            </thead>
+            <tbody id="list-book">
+            <tr>
+                <td>12345</td>
+                <td>Toán</td>
+                <td>2000</td>
+                <td>3</td>
+                <td>True</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <div class="add-product">
+        <table class="table-add-book">
+            <tr>
+                <td>Mã số sách</td>
+                <td><input type="text" id="ms"></td>
+            </tr>
+            <tr>
+                <td>Tên sách</td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td>Năm xuất bản</td>
+                <td><input type="number" id="year"></td>
+            </tr>
+            <tr>
+                <td>Số quyển</td>
+                <td><input type="number" id="sl"></td>
+            </tr>
+            <tr>
+                <td> <button type="button" onclick="save()">Thêm sách mới</button></td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
